@@ -67,13 +67,14 @@
 .nav__link::after {
   content: '';
   position: absolute;
-  bottom: 0;
+  bottom: -2px;
   left: 0;
   width: 0;
-  height: 2px;
-  background: var(--c-brand);
+  height: 2.5px;
+  background: linear-gradient(90deg, #ff2a2a 0%, #e50914 60%, #ff5722 100%);
+  box-shadow: 0 0 10px rgba(229, 9, 20, 0.75), 0 0 2px #fff;
   transition: width var(--transition-base);
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 .nav__link:hover,

@@ -131,7 +131,7 @@
     "categories": {
       "all": "Todos",
       "fade": "Degradados / Fades",
-      "diseno": "Diseños & Estilos"
+      "taper": "Taper & Perfilado"
     }
   },
   "projects": [
@@ -156,7 +156,7 @@
     {
       "id": "p03",
       "title": "Taper Fade & Definición Posterior",
-      "category": "fade",
+      "category": "taper",
       "service": "Corte de Autor",
       "image": "assets/img/gallery/fade_03.jpg",
       "tags": ["Taper Fade", "Visagismo", "Degradado"],
@@ -183,28 +183,10 @@
     {
       "id": "p06",
       "title": "Taper & Acabado en Puesto de Trabajo",
-      "category": "fade",
+      "category": "taper",
       "service": "Corte de Autor",
       "image": "assets/img/gallery/fade_06.jpg",
       "tags": ["Taper", "Estilo", "Maxi Studio"],
-      "featured": true
-    },
-    {
-      "id": "p07",
-      "title": "Curly Skin Fade — Pasión por el Detalle",
-      "category": "diseno",
-      "service": "Corte + Diseño + Cejas",
-      "image": "assets/img/gallery/pasion_detalle_art.png",
-      "tags": ["Curly Fade", "Diseño", "Premium Studio"],
-      "featured": true
-    },
-    {
-      "id": "p08",
-      "title": "Top Knot, Trenzas & Diseño a Navaja",
-      "category": "diseno",
-      "service": "Corte + Diseño + Cejas",
-      "image": "assets/img/gallery/diseno_braids_art.png",
-      "tags": ["Trenzas", "Diseño Navaja", "Freestyle"],
       "featured": true
     }
   ],
