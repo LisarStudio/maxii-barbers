@@ -1,0 +1,40 @@
+{
+  "brand": {
+    "name": "Maxi Studio",
+    "shortName": "Maxii Barbers",
+    "tagline": "Pasión por el Detalle — Estilo · Precisión · Exclusividad",
+    "slogan": "No es solo un corte, es tu actitud.",
+    "instagram": "https://www.instagram.com/maxii.barbers?igsh=NmhpYWVpOTFjbXY4",
+    "instagramHandle": "@maxii.barbers"
+  },
+  "nav": [
+    { "label": "Servicios", "href": "#servicios" },
+    { "label": "Nosotros", "href": "#nosotros" },
+    { "label": "Galería", "href": "#galeria" },
+    { "label": "Promoción", "href": "#promocion" },
+    { "label": "FAQ", "href": "#faq" },
+    { "label": "Reservar", "href": "#contacto" }
+  ],
+  "contact": {
+    "whatsapp": "+56 9 2758 0406",
+    "phone": "+56 9 2758 0406",
+    "email": "contacto@maxiibarbers.cl",
+    "location": "Frente al Metro Carlos Valdovinos, Santiago, Chile",
+    "reference": "Línea 5 Metro de Santiago — San Joaquín / San Miguel",
+    "schedule": "Lunes a Sábado: 10:00 - 20:30 hrs",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.886029837946!2d-70.6293751234484!3d-33.47829797337775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c56a84f3df91%3A0x7d01a52e008b8b0!2sMetro%20Carlos%20Valdovinos!5e0!3m2!1ses-419!2scl!4v1716150000000!5m2!1ses-419!2scl"
+  },
+  "theme": {
+    "colors": {
+      "bg": "#0a0a0c",
+      "primary": "#f59e0b",
+      "secondary": "#d97706",
+      "accent": "#ff6b00"
+    }
+  },
+  "seo": {
+    "title": "Maxii Barbers | Private Barber Studio — Santiago",
+    "description": "Maxi Studio - Private Barber Studio. Cortes de alta precisión, fades, diseños a navaja y perfilado de barba frente al Metro Carlos Valdovinos. Reserva tu hora.",
+    "ogImagePath": "assets/img/flyer_inauguracion.jpg"
+  }
+}

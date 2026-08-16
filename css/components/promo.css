@@ -1,0 +1,165 @@
+/* ============================================================
+   PROMO — Inauguración Flyer Banner & Metro Valdovinos Card
+   ============================================================ */
+
+.promo-section {
+  position: relative;
+  background: linear-gradient(180deg, var(--c-page) 0%, var(--c-bg) 50%, var(--c-page) 100%);
+}
+
+.promo-card {
+  background: radial-gradient(circle at top right, rgba(245, 158, 11, 0.15), transparent 50%),
+              radial-gradient(circle at bottom left, rgba(255, 87, 34, 0.1), transparent 50%),
+              #121217;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  border-radius: var(--radius-xl);
+  padding: clamp(2rem, 5vw, 3.5rem);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7), 0 0 30px rgba(245, 158, 11, 0.15);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: clamp(2rem, 5vw, 4rem);
+  position: relative;
+  overflow: hidden;
+}
+
+.promo-card__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.promo-card__tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #ff5722;
+  color: #fff;
+  font-size: var(--text-xs);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  padding: 6px 14px;
+  border-radius: var(--radius-full);
+  margin-bottom: var(--space-4);
+  width: fit-content;
+  box-shadow: 0 0 15px rgba(255, 87, 34, 0.4);
+}
+
+.promo-card__title {
+  font-size: clamp(1.8rem, 3.5vw, 2.5rem);
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: var(--space-3);
+  line-height: 1.15;
+}
+
+.promo-card__text {
+  font-size: var(--text-base);
+  color: var(--c-text-muted);
+  line-height: 1.6;
+  margin-bottom: var(--space-5);
+}
+
+.promo-prices-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: var(--space-6);
+}
+
+.promo-price-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px dashed rgba(245, 158, 11, 0.25);
+  padding: 12px 18px;
+  border-radius: var(--radius-md);
+}
+
+.promo-price-name {
+  font-weight: 700;
+  font-size: var(--text-sm);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.promo-price-val {
+  font-weight: 800;
+  font-size: var(--text-lg);
+  color: var(--c-brand);
+  font-family: var(--font-heading);
+}
+
+.metro-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(230, 0, 0, 0.1);
+  border: 1px solid rgba(230, 0, 0, 0.3);
+  padding: 8px 16px;
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-5);
+}
+
+.metro-badge__icon {
+  width: 44px;
+  height: auto;
+}
+
+.metro-badge__text {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  color: #ff8b8b;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.promo-card__flyer-wrap {
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8), 0 0 25px rgba(245, 158, 11, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  cursor: pointer;
+  transition: transform var(--transition-base);
+}
+
+.promo-card__flyer-wrap:hover {
+  transform: scale(1.02);
+}
+
+.promo-card__flyer-img {
+  width: 100%;
+  max-height: 460px;
+  object-fit: cover;
+  display: block;
+}
+
+.promo-card__flyer-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity var(--transition-fast);
+}
+
+.promo-card__flyer-wrap:hover .promo-card__flyer-overlay {
+  opacity: 1;
+}
+
+@media (max-width: 900px) {
+  .promo-card {
+    grid-template-columns: 1fr;
+  }
+
+  .promo-card__flyer-wrap {
+    max-width: 380px;
+    margin: 0 auto;
+  }
+}

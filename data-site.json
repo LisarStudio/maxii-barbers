@@ -1,0 +1,246 @@
+{
+  "content": {
+    "hero": {
+      "overline": "PRIVATE BARBER STUDIO",
+      "title": "No es solo un corte, es tu actitud.",
+      "subtitle": "Estilo, precisión y exclusividad en un ambiente premium frente al Metro Carlos Valdovinos. Eleva tu estilo con atención personalizada de autor.",
+      "ctaText": "Reservar tu Turno",
+      "secondaryCtaText": "Ver Trabajos",
+      "badge": "Precios de Inauguración Activos"
+    }
+  },
+  "inauguration": {
+    "overline": "LANZAMIENTO OFICIAL",
+    "title": "Te Invitamos a tu Primera Visita",
+    "lead": "Aprovecha nuestras tarifas especiales de inauguración y experimenta el verdadero concepto de Private Barber Studio.",
+    "flyerImage": "assets/img/flyer_inauguracion.jpg",
+    "flyerAlt": "Inauguración Oficial Maxi Studio - Precios Especiales"
+  },
+  "about": {
+    "overline": "PASIÓN POR EL DETALLE",
+    "title": "Estilo · Precisión · Exclusividad",
+    "description": "En Maxi Studio redefinimos la experiencia de la barbería clásica a través de un espacio privado y exclusivo. Cada corte, degradado y diseño se realiza con máxima atención a los detalles, visagismo personalizado y productos de primer nivel para que luzcas tu mejor versión.",
+    "image": "assets/img/about/maxi_studio_sign.png",
+    "imageAlt": "Maxi Studio - Pasión por el Detalle",
+    "pillars": [
+      {
+        "title": "Estilo & Precisión",
+        "description": "Técnicas avanzadas de fade milimétrico, tijera y navaja."
+      },
+      {
+        "title": "Atención Personalizada",
+        "description": "Un barbero dedicado 100% a tu turno sin prisas ni esperas."
+      },
+      {
+        "title": "Ambiente Premium",
+        "description": "Espacio privado, climatizado, con iluminación de estudio y confort."
+      },
+      {
+        "title": "Productos de Calidad",
+        "description": "Pomadas, lociones y aceites seleccionados para cuidar tu cabello y piel."
+      }
+    ],
+    "stat1Value": "100%",
+    "stat1Label": "Satisfacción",
+    "stat2Value": "5★",
+    "stat2Label": "Calidad de Autor",
+    "stat3Value": "L5",
+    "stat3Label": "Frente al Metro"
+  },
+  "services_header": {
+    "overline": "TARIFAS & SERVICIOS",
+    "title": "Servicios de Inauguración",
+    "lead": "Elige tu servicio y agenda tu hora en pocos pasos. Todos los servicios incluyen perfilado de contornos y acabado con productos de alta gama."
+  },
+  "services": [
+    {
+      "id": "s01",
+      "title": "Corte de Autor",
+      "badge": "Inauguración",
+      "price": "$8.000",
+      "originalPrice": "$12.000",
+      "duration": "45 min",
+      "description": "Asesoría según tus facciones, degradado (skin fade / taper) o corte clásico a tijera y máquina, lavado opcional y peinado final con fijador profesional.",
+      "icon": "assets/img/services/corte.svg",
+      "image": "assets/img/gallery/fade_01.png",
+      "cta": "Reservar Corte",
+      "waMessage": "Hola Maxi Studio, quiero reservar una hora para *Corte ($8.000)*."
+    },
+    {
+      "id": "s02",
+      "title": "Corte + Diseño + Cejas",
+      "badge": "Más Popular",
+      "price": "$9.990",
+      "originalPrice": "$15.000",
+      "duration": "60 min",
+      "description": "Servicio estrella. Corte completo a elección + diseño personalizado con navaja de precisión + perfilado y limpieza milimétrica de cejas.",
+      "icon": "assets/img/services/diseno.svg",
+      "image": "assets/img/gallery/diseno_braids_art.png",
+      "cta": "Reservar Pack Especial",
+      "waMessage": "Hola Maxi Studio, quiero agendar la oferta especial de *Corte + Diseño + Cejas ($9.990)*."
+    },
+    {
+      "id": "s03",
+      "title": "Degradado & Perfilado de Barba",
+      "badge": "Adicional",
+      "price": "$3.990",
+      "originalPrice": "$6.000",
+      "duration": "25 min",
+      "description": "Rebaje de volumen, conexión con patillas en degradado, diseño de líneas a navaja, toalla caliente y aplicación de bálsamo hidratante.",
+      "icon": "assets/img/services/barba.svg",
+      "image": "assets/img/gallery/fade_05.jpg",
+      "cta": "Reservar Barba",
+      "waMessage": "Hola Maxi Studio, quiero agendar el servicio de *Degradado y Perfilado de Barba ($3.990)*."
+    },
+    {
+      "id": "s04",
+      "title": "Full Pack Maxi Studio",
+      "badge": "VIP Experience",
+      "price": "$13.990",
+      "originalPrice": "$19.000",
+      "duration": "75 min",
+      "description": "El combo definitivo: Corte completo + diseño freestyle o clásico + perfilado de cejas + ritual completo de barba con toalla y nutrición.",
+      "icon": "assets/img/services/pack_full.svg",
+      "image": "assets/img/gallery/pasion_detalle_art.png",
+      "cta": "Reservar Full VIP",
+      "waMessage": "Hola Maxi Studio, quiero agendar el *Full Pack Maxi Studio ($13.990)*."
+    }
+  ],
+  "barbers": [
+    {
+      "id": "b01",
+      "name": "Maxi (Master Barber)",
+      "specialty": "Fundador & Especialista en Fades y Diseños",
+      "avatar": "✂️",
+      "isAny": false,
+      "checked": true
+    },
+    {
+      "id": "b00",
+      "name": "Cualquier Horario Disponible",
+      "specialty": "Opción más rápida y flexible",
+      "avatar": "⚡",
+      "isAny": true,
+      "checked": false
+    }
+  ],
+  "gallery_header": {
+    "overline": "PORTFOLIO & TRABAJOS",
+    "title": "Galería de Estilos",
+    "lead": "Conoce los resultados reales de nuestros clientes en Maxi Studio. Precisión milimétrica y acabados de nivel profesional.",
+    "categories": {
+      "all": "Todos",
+      "fade": "Degradados / Fades",
+      "diseno": "Diseños & Estilos"
+    }
+  },
+  "projects": [
+    {
+      "id": "p01",
+      "title": "Mid Fade & Crop Texturizado",
+      "category": "fade",
+      "service": "Corte de Autor",
+      "image": "assets/img/gallery/fade_01.png",
+      "tags": ["Mid Fade", "Textura", "Studio Real"],
+      "featured": true
+    },
+    {
+      "id": "p02",
+      "title": "Skin Fade & Luminaria Maxi Studio",
+      "category": "fade",
+      "service": "Corte de Autor",
+      "image": "assets/img/gallery/fade_02.png",
+      "tags": ["Skin Fade", "Maxi Studio", "Perfilado"],
+      "featured": true
+    },
+    {
+      "id": "p03",
+      "title": "Taper Fade & Definición Posterior",
+      "category": "fade",
+      "service": "Corte de Autor",
+      "image": "assets/img/gallery/fade_03.jpg",
+      "tags": ["Taper Fade", "Visagismo", "Degradado"],
+      "featured": true
+    },
+    {
+      "id": "p04",
+      "title": "Fade & Reflejo en Espejo de Studio",
+      "category": "fade",
+      "service": "Corte de Autor",
+      "image": "assets/img/gallery/fade_04.jpg",
+      "tags": ["Studio", "Degradado", "Reflejo"],
+      "featured": true
+    },
+    {
+      "id": "p05",
+      "title": "Low Fade con Detalle Posterior",
+      "category": "fade",
+      "service": "Corte de Autor",
+      "image": "assets/img/gallery/fade_05.jpg",
+      "tags": ["Low Fade", "Urbano", "Precisión"],
+      "featured": true
+    },
+    {
+      "id": "p06",
+      "title": "Taper & Acabado en Puesto de Trabajo",
+      "category": "fade",
+      "service": "Corte de Autor",
+      "image": "assets/img/gallery/fade_06.jpg",
+      "tags": ["Taper", "Estilo", "Maxi Studio"],
+      "featured": true
+    },
+    {
+      "id": "p07",
+      "title": "Curly Skin Fade — Pasión por el Detalle",
+      "category": "diseno",
+      "service": "Corte + Diseño + Cejas",
+      "image": "assets/img/gallery/pasion_detalle_art.png",
+      "tags": ["Curly Fade", "Diseño", "Premium Studio"],
+      "featured": true
+    },
+    {
+      "id": "p08",
+      "title": "Top Knot, Trenzas & Diseño a Navaja",
+      "category": "diseno",
+      "service": "Corte + Diseño + Cejas",
+      "image": "assets/img/gallery/diseno_braids_art.png",
+      "tags": ["Trenzas", "Diseño Navaja", "Freestyle"],
+      "featured": true
+    }
+  ],
+  "faq_header": {
+    "overline": "PREGUNTAS FRECUENTES",
+    "title": "Resolvemos tus Dudas",
+    "lead": "Todo lo que necesitas saber antes de tu primera visita a Maxi Studio.",
+    "cta_title": "¿Tienes otra consulta?",
+    "cta_text": "Escríbenos directamente a WhatsApp y te atenderemos al instante.",
+    "cta_button": "Preguntar por WhatsApp"
+  },
+  "faq": [
+    {
+      "question": "¿Dónde queda ubicado Maxi Studio?",
+      "answer": "Estamos ubicados estratégicamente justo frente a la estación de Metro Carlos Valdovinos (Línea 5), en el límite de San Joaquín y San Miguel. Al agendar te enviaremos la ubicación exacta y el acceso al studio privado."
+    },
+    {
+      "question": "¿Cómo puedo asegurar mi hora de atención?",
+      "answer": "Puedes agendar en línea a través de nuestro widget en esta página web o directamente por WhatsApp al +56 9 2758 0406. Te recomendamos reservar con anticipación para asegurar tu bloque preferido."
+    },
+    {
+      "question": "¿Hasta cuándo duran los precios de inauguración?",
+      "answer": "Nuestros precios de inauguración ($8.000 corte, $9.990 corte + diseño + cejas) estarán vigentes por tiempo limitado para todos los clientes que reserven su turno."
+    },
+    {
+      "question": "¿Qué métodos de pago reciben?",
+      "answer": "Aceptamos Transferencia bancaria directa, Efectivo y Tarjetas de débito/crédito mediante link de pago."
+    },
+    {
+      "question": "¿Atienden por orden de llegada o solo con reserva?",
+      "answer": "Al ser un Private Barber Studio y priorizar la atención personalizada sin esperas, atendemos principalmente con reserva previa para dedicarte el 100% del tiempo de tu sesión."
+    }
+  ],
+  "contact_header": {
+    "overline": "AGENDA TU HORA",
+    "title": "Reserva tu Turno Online",
+    "lead": "Selecciona tu servicio, fecha y hora disponible. Te confirmaremos por WhatsApp de inmediato."
+  }
+}

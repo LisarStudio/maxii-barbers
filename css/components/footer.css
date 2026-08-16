@@ -1,0 +1,165 @@
+/* ============================================================
+   FOOTER — Dark Elegant Footer with Santiago Metro & Map
+   ============================================================ */
+
+.site-footer {
+  background-color: #060608;
+  border-top: 1px solid var(--c-border);
+  padding-top: clamp(3rem, 6vw, 5rem);
+  padding-bottom: 2rem;
+  position: relative;
+}
+
+.footer__grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr 1fr 1.2fr;
+  gap: clamp(2rem, 4vw, 3.5rem);
+  margin-bottom: clamp(2.5rem, 5vw, 4rem);
+}
+
+.footer__brand {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__logo-img {
+  height: 58px;
+  width: auto;
+  object-fit: contain;
+  margin-bottom: var(--space-4);
+}
+
+.footer__slogan {
+  font-size: var(--text-sm);
+  color: var(--c-brand-light);
+  font-style: italic;
+  font-family: var(--font-display);
+  margin-bottom: 12px;
+}
+
+.footer__desc {
+  font-size: var(--text-xs);
+  color: var(--c-text-muted);
+  line-height: 1.6;
+  margin-bottom: var(--space-4);
+}
+
+.footer__social-links {
+  display: flex;
+  gap: 12px;
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--c-border);
+  padding: 8px 14px;
+  border-radius: var(--radius-full);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  color: #fff;
+  transition: all var(--transition-fast);
+}
+
+.social-btn:hover {
+  background: rgba(245, 158, 11, 0.15);
+  border-color: var(--c-brand);
+  color: var(--c-brand);
+  transform: translateY(-2px);
+}
+
+.footer__col-title {
+  font-size: var(--text-sm);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: var(--space-4);
+  position: relative;
+  display: inline-block;
+}
+
+.footer__col-title::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background: var(--c-brand);
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__link {
+  font-size: var(--text-xs);
+  color: var(--c-text-muted);
+  transition: color var(--transition-fast);
+}
+
+.footer__link:hover {
+  color: var(--c-brand);
+  transform: translateX(4px);
+}
+
+.footer__contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer__contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: var(--text-xs);
+  color: var(--c-text-muted);
+}
+
+.footer__contact-icon {
+  color: var(--c-brand);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.footer__map-frame {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--c-border);
+  box-shadow: var(--shadow-md);
+}
+
+.footer__bottom {
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-size: var(--text-xs);
+  color: var(--c-text-dim);
+}
+
+@media (max-width: 960px) {
+  .footer__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+}

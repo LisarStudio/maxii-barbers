@@ -1,0 +1,125 @@
+/* ============================================================
+   FAQ — Accordion & Objection Resolution
+   ============================================================ */
+
+.faq {
+  position: relative;
+  background-color: var(--c-page);
+}
+
+.faq__layout {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: start;
+}
+
+.faq__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.faq__lead {
+  font-size: var(--text-base);
+  color: var(--c-text-muted);
+  line-height: 1.6;
+  margin-bottom: var(--space-6);
+}
+
+.faq__cta-card {
+  background: var(--c-bg-card);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  box-shadow: var(--shadow-md);
+  position: relative;
+  overflow: hidden;
+}
+
+.faq__cta-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: var(--c-brand);
+}
+
+.faq__cta-title {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.faq__cta-text {
+  font-size: var(--text-sm);
+  color: var(--c-text-muted);
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.faq__accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.faq-item {
+  background: var(--c-bg-card);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  transition: border-color var(--transition-fast), background var(--transition-fast);
+}
+
+.faq-item[open] {
+  border-color: rgba(245, 158, 11, 0.35);
+  background: var(--c-bg-card-hover);
+}
+
+.faq-item__summary {
+  padding: 18px 24px;
+  font-weight: 600;
+  font-size: var(--text-base);
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  list-style: none;
+  user-select: none;
+}
+
+.faq-item__summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item__icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  transition: transform var(--transition-base);
+  color: var(--c-brand);
+}
+
+.faq-item[open] .faq-item__icon {
+  transform: rotate(180deg);
+}
+
+.faq-item__content {
+  padding: 0 24px 22px;
+  font-size: var(--text-sm);
+  color: var(--c-text-muted);
+  line-height: 1.6;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  padding-top: 14px;
+}
+
+@media (max-width: 900px) {
+  .faq__layout {
+    grid-template-columns: 1fr;
+  }
+}

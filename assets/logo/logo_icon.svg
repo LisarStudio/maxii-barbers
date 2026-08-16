@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <defs>
+    <linearGradient id="icon-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2D6" />
+      <stop offset="50%" stop-color="#F5B041" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#0E0E12" stroke="rgba(245,176,65,0.3)" stroke-width="1.5" />
+  <!-- Crown -->
+  <path d="M20,24 L25,12 L32,19 L39,12 L44,24 Z" fill="url(#icon-gold)" />
+  <circle cx="25" cy="11" r="1.5" fill="#FFF2D6" />
+  <circle cx="32" cy="18" r="1.8" fill="#FFF2D6" />
+  <circle cx="39" cy="11" r="1.5" fill="#FFF2D6" />
+  <!-- "M" Monogram -->
+  <path d="M20,48 L20,30 L27,42 L32,34 L37,42 L44,30 L44,48" stroke="url(#icon-gold)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
